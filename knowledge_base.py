@@ -105,7 +105,7 @@ if __name__ == "__main__":
     knowledgeBase=KnowledgeBase()
     knowledgeBase.load_documents(["rag/知识库数据集/知识"])
     knowledgeBase.load_query_engine()
-    result=knowledgeBase.chat_query("我感到虚热，寒冷，头疼，是的了什么并病")
+    result=knowledgeBase.chat_query("你是谁，你为何想看这。")
     print(result)
     
            
